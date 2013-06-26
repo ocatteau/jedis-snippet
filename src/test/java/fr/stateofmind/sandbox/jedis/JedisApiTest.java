@@ -16,10 +16,9 @@ public class JedisApiTest {
     private static Jedis jedis;
 
     @BeforeClass public static void setUpClass() throws Exception {
-        Jedis jedis1 = new Jedis("localhost", 6379);
-        jedis1.connect();
+        jedis = new Jedis("localhost", 6379);
+        jedis.connect();
         System.out.println("Connected");
-        jedis = jedis1;
     }
 
     @AfterClass public static void tearDownClass() throws Exception {
