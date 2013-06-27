@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "hash": [
+                { "key": "person:olivier",
+                  "values": [ { "field": "name", "value": "Olivier" }, { "field": "age", "value": "35" } ]
+                },
+                { "key": "person:junior",
+                  "values": [ { "field": "name", "value": "Junior" }, { "field": "age", "value": "5" } ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "data": [
+        {
+            "hash": [
+                {
+                    "key": "person:olivier",
+                    "values": [ { "field": "name", "value": "Olivier" }, { "field": "age", "value": "35" }
+                    ]
+                }
+            ]
+        }
+    ]
+}
